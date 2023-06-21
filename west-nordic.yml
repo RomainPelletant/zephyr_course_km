@@ -1,0 +1,13 @@
+# Copyright (c) 2021 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+manifest:
+  remotes:
+    - name: nrfconnect
+      url-base: https://github.com/nrfconnect
+  projects:
+    - name: nrf
+      repo-path: sdk-nrf
+      remote: nrfconnect
+      revision: v2.3.0
+      import: true
