@@ -21,7 +21,7 @@ jobs:
       - name: Initialize
         working-directory: example-application
         run: |
-          west init -l .
+          west init -l west-vanilla.yml
           west update
 
       - name: Build firmware
